@@ -31,7 +31,8 @@ export default class CompPure extends PureComponent {
     { console.log("This is Pure Component") }
     return (
       <div>
-        Count: {this.state.count}
+        <h1>Pure Component</h1>
+        <div>Count: {this.state.count}</div>
         <button onClick={this.handleInc}>Increment</button>
         <button onClick={this.toggle}>Toggle</button>
       </div>

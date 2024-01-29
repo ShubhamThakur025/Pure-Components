@@ -33,7 +33,8 @@ export default class SimpleComponent extends Component {
 
         return (
             <div>
-                Count: {this.state.count}
+                <h1>Simple Component</h1>
+                <div>Count: {this.state.count}</div>
                 <button onClick={this.handleInc}>Increment</button>
                 <button onClick={this.toggle}>Toggle</button>
             </div>
